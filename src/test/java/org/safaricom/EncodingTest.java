@@ -10,6 +10,7 @@ class EncodingTest {
     @DisplayName("Encoding works as expected")
     void encode(){
         assertEquals("QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD", Encoding.encode("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", 23));
+        assertEquals("DBC", Encoding.encode("cab", 1));
 
     }
 
